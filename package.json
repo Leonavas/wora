@@ -1,0 +1,23 @@
+{
+  "name": "wora",
+  "version": "0.0.1",
+  "description": "A Write Once Run Anywhere layer on top of Ionic®",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leonavas/wora.git"
+  },
+  "keywords": [
+    "wora",
+    "ionic"
+  ],
+  "scripts": {
+    "version": "echo 0.0.1"
+  },
+  "bin": {
+    "dosomethingawesome": "./bin/demo-global.js"
+  },
+  "author": "Rodrigo Leonavas <rodrigo.leonavas@startme.tech> (https://startme.tech)",
+  "license": "BSD-3-Clause",
+  "preferGlobal": true
+}
