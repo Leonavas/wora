@@ -11,13 +11,19 @@
     "wora",
     "ionic"
   ],
+  "author": "Rodrigo Leonavas <rodrigo.leonavas@startme.tech> (https://startme.tech)",
+  "license": "BSD-3-Clause",
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=6.14.1"
+  },
   "scripts": {
     "version": "echo 0.0.1"
   },
   "bin": {
-    "dosomethingawesome": "./bin/demo-global.js"
+    "wora": "./bin/demo-global.js"
   },
-  "author": "Rodrigo Leonavas <rodrigo.leonavas@startme.tech> (https://startme.tech)",
-  "license": "BSD-3-Clause",
-  "preferGlobal": true
+  "devDependencies": {
+    "typescript": "^2.8.3"
+  }
 }
